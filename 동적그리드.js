@@ -59,12 +59,12 @@ function onButtonClick(e){
 			, "columnName": vsColumnName
 		})
 	}
-	
+	//데이터 설정
 	grd.addColumn({
 		columnLayout: columnLayout
 		,header: header
 		,detail: detail
 	});
-	
+	//그리드 그리기
 	grd.redraw();
 }
